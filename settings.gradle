@@ -1,2 +1,5 @@
 rootProject.name='Main'
 include ':app'
+
+include ':sub'
+project(':sub').projectDir = new File('sub')
